@@ -1,0 +1,48 @@
+
+
+.subscribe-section {
+    background: #fff;
+  }
+  
+  .subscribe-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  font-family: "Helvetica", sans-serif !important; /* use your project font */
+  }
+  
+  .subscribe-desc {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .subscribe-form {
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+  }
+  
+  .subscribe-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+    background: transparent;
+  }
+  
+  .subscribe-btn {
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 15px;
+  }
+  
+  .subscribe-btn:hover {
+    color: #6c63ff; /* accent color */
+  }
+  

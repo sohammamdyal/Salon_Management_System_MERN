@@ -1,0 +1,108 @@
+
+.our-services-title {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.services-box {
+  height: 80vh; /* Adjust for full-screen section feel */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #000;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.services-box:hover {
+  transform: scale(1.02);
+}
+
+/* Backgrounds (replace with your actual salon images) */
+.gents-box {
+  background-image: url("https://d3r0z4awu7ba6n.cloudfront.net/images/looks/services/gents.jpg");
+}
+
+.ladies-box {
+  background-image: url("https://d3r0z4awu7ba6n.cloudfront.net/images/looks/services/ladies.jpg");
+}
+
+.text-overlay {
+  color: #000; /* better contrast */
+
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+.featured-heading {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    letter-spacing: -0.5px;
+  }
+  
+  .custom-divider {
+    border-top: 2px solid #ccc;
+  }
+  
+  /* dot before title */
+  .dot {
+    width: 8px;
+    height: 8px;
+    background: #000;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  /* project card wrapper */
+  .project-card {
+    height: 60vh;
+    border-radius: 1rem;
+    position: relative; /* bootstrap .position-relative already adds this but keep for safety */
+    overflow: hidden;   /* clip hover title and image to this card */
+  }
+  
+  /* background images (replace placeholders with your real images) */
+  .project-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+  }
+  
+  /* sample background images — swap with real URLs */
+  .feature1 {
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059_640.jpg");
+  }
+  .feature2 {
+    background-image: url("/images/1.jpg");
+  }
+  .feature3 {
+    background-image: url("/images/2.jpg");
+  }
+  .feature4 {
+    background-image: url("/images/3.jpg");
+  }
+  
+  /* HOVER TITLE — centered inside its card, only visible on md+ */
+  .hover-title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* center the title within the card */
+    z-index: 10;
+    font-size: 6vw; /* adjust to taste */
+    font-weight: 800;
+    color: #cdea68; /* lime */
+    white-space: nowrap;
+    line-height: 1;
+    pointer-events: none; /* don't block mouse events */
+  }
+  
+  /* tag button hover */
+  .tag-btn {
+    transition: all 0.25s ease;
+  }
+  .tag-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  

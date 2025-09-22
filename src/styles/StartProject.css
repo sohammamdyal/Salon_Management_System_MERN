@@ -1,0 +1,83 @@
+/* Section styling */
+.start-section {
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(205, 234, 104);
+    padding-top: 5rem;
+    position: relative;
+  }
+  
+  /* Headings */
+  .start-title {
+    color: #212529;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: clamp(2.5rem, 12vw, 10rem);
+    line-height: 1.1;
+    letter-spacing: -0.05em;
+  }
+  
+  /* Circles */
+  .circles-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+  }
+  
+  .outer-circle {
+    width: clamp(120px, 14vw, 220px);
+    height: clamp(120px, 14vw, 220px);
+    background: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .inner-circle {
+    width: clamp(70px, 8.5vw, 150px);
+    height: clamp(70px, 8.5vw, 150px);
+    background: #000;
+    border-radius: 50%;
+  }
+  
+  .dot {
+    width: clamp(10px, 1.5vw, 20px);
+    height: clamp(10px, 1.5vw, 20px);
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  /* Button styles */
+  .btn-start {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border: 2px solid #6c757d;
+    border-radius: 50px;
+    font-weight: 600;
+    background: transparent;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-arrow {
+    border: 2px solid #6c757d;
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    display: grid;
+    place-items: center;
+    transition: all 0.4s ease;
+  }
+  
+  /* Hover effects */
+  .group:hover .btn-start,
+  .group:hover .btn-arrow {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+  }
+  

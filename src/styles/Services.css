@@ -1,0 +1,117 @@
+
+.hero-section {
+    background-color: #cdea68;
+    min-height: 100vh;
+  }
+  
+  /* Hero text */
+  .hero-text {
+    margin-top: 6rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 4rem;
+  }
+  
+  .hero-heading {
+    font-size: clamp(2rem, 7vw, 5rem);
+    line-height: 1.1;
+    font-weight: 700;
+  }
+  
+  /* Image box in text */
+  .hero-img-box {
+    height: 5.5vw;
+    border-radius: 12px;
+    overflow: hidden;
+    min-width: 60px;
+  }
+  
+  /* Subtext */
+  .start-project div {
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Responsive fixes */
+  @media (max-width: 768px) {
+    .hero-heading {
+      font-size: 12vw;
+      line-height: 1.2;
+    }
+    .hero-img-box {
+      width: 25vw !important;
+      height: 14vw;
+    }
+  }
+
+.featured-heading {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    letter-spacing: -0.5px;
+  }
+  
+  .custom-divider {
+    border-top: 2px solid #ccc;
+  }
+  
+  /* dot before title */
+  .dot {
+    width: 8px;
+    height: 8px;
+    background: #000;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  /* project card wrapper */
+  .project-card {
+    height: 60vh;
+    border-radius: 1rem;
+    position: relative; /* bootstrap .position-relative already adds this but keep for safety */
+    overflow: hidden;   /* clip hover title and image to this card */
+  }
+  
+  /* background images (replace placeholders with your real images) */
+  .project-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+  }
+  
+  /* sample background images — swap with real URLs */
+  .feature1 {
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059_640.jpg");
+  }
+  .feature2 {
+    background-image: url("/images/1.jpg");
+  }
+  .feature3 {
+    background-image: url("/images/2.jpg");
+  }
+  .feature4 {
+    background-image: url("/images/3.jpg");
+  }
+  
+  /* HOVER TITLE — centered inside its card, only visible on md+ */
+  .hover-title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* center the title within the card */
+    z-index: 10;
+    font-size: 6vw; /* adjust to taste */
+    font-weight: 800;
+    color: #cdea68; /* lime */
+    white-space: nowrap;
+    line-height: 1;
+    pointer-events: none; /* don't block mouse events */
+  }
+  
+  /* tag button hover */
+  .tag-btn {
+    transition: all 0.25s ease;
+  }
+  .tag-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  

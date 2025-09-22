@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif !important;
+    background-color: #f4f4f5;
+    color: #111;
+  }
+
+  /* Hero Section */
+/* Hero section wrapper */
+.hero-section {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+/* Hero text */
+.hero-text {
+  margin-top: 6rem;
+  font-family: "Helvetica", sans-serif !important;
+  margin-bottom: 4rem;
+}
+
+.hero-heading {
+  font-size: clamp(2rem, 7vw, 5rem);
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+/* Image box in text */
+.hero-img-box {
+  height: 5.5vw;
+  border-radius: 12px;
+  overflow: hidden;
+  min-width: 60px;
+}
+
+/* Subtext */
+.start-project div {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 12vw;
+    line-height: 1.2;
+  }
+  .hero-img-box {
+    width: 25vw !important;
+    height: 14vw;
+  }
+}

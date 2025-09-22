@@ -1,0 +1,19 @@
+.counter-box {
+    margin: 20px 0;
+  }
+  
+  .counter-number {
+    font-size: 150px;  /* Matches screenshot */
+    font-weight: 400;
+    line-height: 1;
+  }
+  
+  .counter-label {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    text-transform: uppercase;
+    /* i want to align the text start */
+    text-align: start;
+  }
+  

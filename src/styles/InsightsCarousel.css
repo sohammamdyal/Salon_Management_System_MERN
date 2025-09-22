@@ -1,0 +1,50 @@
+.insights-carousel {
+    font-family: "Helvetica", sans-serif !important;
+    background-color: #fff;
+    overflow-x: auto; /* allow scroll */
+  scrollbar-width: none; /* Firefox */
+  }
+
+  .insights-carousel::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  
+  .insight-card {
+    min-height: 500px;
+    width : 100%;
+
+    color: #000;
+  }
+
+  .insight-card h4 {
+    font-family: "Helvetica", sans-serif !important;
+
+  }
+  .insight-card p{
+    font-family: "Helvetica", sans-serif !important;
+  }
+  
+  .bg-orange {
+    background: #ffb84d;
+  }
+  
+  .bg-blue {
+    background: #66b3ff;
+  }
+  
+  .bg-green {
+    background: #66cc99;
+  }
+  
+  .bg-purple {
+    background: #b266ff;
+  }
+  
+  .bg-pink {
+    background: #ff99cc;
+  }
+  
+  .insight-card h4 {
+    line-height: 1.4;
+  }
+  

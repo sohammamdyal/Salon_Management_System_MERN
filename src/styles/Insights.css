@@ -1,0 +1,88 @@
+/* Section background */
+.insights-section {
+    padding: 60px 40px;
+    background: #fdfdfd;
+  }
+  
+  /* Grid */
+  .insights-card {
+    background: transparent;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .insights-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Image block */
+  .insights-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    transition: transform 0.4s ease;
+  }
+  
+  .insights-card:hover img {
+    transform: scale(1.04);
+  }
+  
+  /* Title */
+  .insights-title {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #111;
+    margin-bottom: 8px;
+  }
+  
+  /* Author */
+  .insights-author {
+    font-size: 13px;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 2px;
+  }
+  
+  .insights-author span {
+    color: #222;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Date */
+  .insights-date {
+    font-size: 13px;
+    font-weight: 400;
+    color: #777;
+  }
+  
+  /* Tag Pills */
+  .insights-tags {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .insights-tag {
+    padding: 5px 14px;
+    border: 1px solid #bbb;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #222;
+    background: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .insights-tag:hover {
+    background: #111;
+    color: #fff;
+    border-color: #111;
+  }
+  

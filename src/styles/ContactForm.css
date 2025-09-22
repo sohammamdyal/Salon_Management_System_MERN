@@ -1,0 +1,113 @@
+.hero-section {
+    background-color: #cdea68;
+    min-height: 80vh;
+  }
+  
+  /* Hero text */
+  .hero-text {
+    margin-top: 6rem;
+    font-family: "Helvetica", sans-serif !important;
+    margin-bottom: 4rem;
+  }
+  
+  .hero-heading {
+    font-size: clamp(2rem, 6vw, 4rem);
+    line-height: 1.1;
+    font-weight: 700;
+  }
+  
+  /* Image box in text */
+  .hero-img-box {
+    height: 5.5vw;
+    border-radius: 12px;
+    overflow: hidden;
+    min-width: 60px;
+  }
+
+  .custom-divider {
+    border-top: 2px solid #004d43;
+  }
+
+.contact-container {
+    width: 100%;              /* Full width */
+    margin: 30px auto;
+    padding: 0 40px;           /* Add side padding for breathing space */
+    font-family: "Helvetica", sans-serif !important;
+  }
+  
+  .form-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    font-size: 40px;
+    line-height: 1;
+    color: #111;
+  }
+  
+  .form-line {
+    margin-bottom: 25px;
+    font-family: "Helvetica", sans-serif !important;
+  }
+  
+  .inline-input {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    font-size: 25px;
+    text-align: center;
+    padding: 2px 5px;
+    min-width: 200px;
+    outline: none;
+  }
+  
+  .inline-input.wide {
+    min-width: 400px;
+  }
+  
+  .inline-input:focus {
+    border-bottom: 2px solid #000;
+  }
+  
+  
+  .form-privacy {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    gap: 8px; /* space between checkbox and text */
+  }
+  
+  .form-privacy span {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .form-privacy span a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .form-privacy span a:hover {
+    color: #666;
+  }
+  
+  .send-btn {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .send-btn:hover {
+    background: #444;
+  }
+  

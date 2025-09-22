@@ -1,0 +1,52 @@
+.blog-section {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+  }
+  
+  /* Big left card */
+  .big-card {
+    /* background-color: #d8ff00;  */
+    flex: 1.5;              /* make it slightly wider than the right side */
+    min-height: 100vh; 
+     /* make it taller */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+ 
+    
+  }
+
+  
+  
+  .blog-illustration {
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Right side small cards */
+  .small-card {
+  
+    color: #fff;
+  }
+  
+  .bg-orange {
+    background-color: #ff5a2c;
+  }
+  
+  .bg-purple {
+    background-color: #6c5ce7;
+  }
+  
+  .bg-green {
+    background-color: #00b894;
+  }
+  
+  .bg-pink {
+    background-color: #fd79a8;
+  }
+  
+  .small-card h5 {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  

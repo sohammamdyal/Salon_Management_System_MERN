@@ -1,0 +1,24 @@
+/* Section background */
+.marquee-section {
+    background-color: #004d43;
+    padding: 4rem 0;
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  /* Inner wrapper */
+  .marquee-wrapper {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    white-space: nowrap;
+    line-height: 1;
+  }
+  
+  /* Text */
+  .marquee-text {
+    font-size: clamp(3rem, 20vw, 12rem);
+    margin-bottom: -0.5rem;
+    padding-right: 2.5rem;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  

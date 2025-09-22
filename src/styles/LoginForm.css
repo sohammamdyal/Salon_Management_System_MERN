@@ -1,0 +1,29 @@
+.login-container {
+    height: 100vh;
+    background: rgb(205, 234, 104); /* Same green color theme */
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .login-box {
+    background: #fff;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 1rem;
+  }
+  
+  h2 {
+    font-weight: 700;
+    color: #222;
+  }
+  
+  button {
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: #333;
+    color: #fff;
+  }
+  

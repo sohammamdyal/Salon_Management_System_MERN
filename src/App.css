@@ -1,0 +1,42 @@
+@import "locomotive-scroll/dist/locomotive-scroll.css";
+
+
+/* General reset */
+@font-face {
+  font-family: "Helvetica";
+  src: url("../public/fonts/Helvetica-Bold.ttf") format("ttf"),
+       url("../public/fonts/Helvetica.ttf") format("ttf");
+      
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sen";
+  src: url("../public/fonts/Sen-Bold.otf") format("ttf"),
+       
+       url("../public/fonts/Sen-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+} 
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif !important;
+  background-color: #f4f4f5;
+  color: #111;
+  overflow: hidden; 
+  animation: fadeIn 1s ease-in forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+[data-scroll-container] {
+  min-height: 100vh;   /* at least full screen */
+  position: relative;
+}
+
+
+

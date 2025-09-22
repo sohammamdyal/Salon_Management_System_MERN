@@ -1,0 +1,66 @@
+.partnerships-container {
+    width: 100%;
+    background: #f3f3f3;
+    padding: 60px 80px;
+  }
+  
+  .partnerships-heading {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #111;
+    max-width: 800px;
+  }
+  
+  .divider {
+    border-top: 1px solid #000;
+    margin: 40px 0;
+  }
+  
+  .partnerships-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
+  
+  .partner-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .partner-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .partner-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+  }
+  
+  .partner-desc {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .partnerships-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .partnerships-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .partnerships-heading {
+      font-size: 28px;
+    }
+  }
+  
