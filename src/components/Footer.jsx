@@ -7,13 +7,12 @@ function Footer() {
     {
       head: "L:",
       sublink: [
-        "202-1965 W 4th Ave",
-        "Vancouver, Canada",
-        "30 Chukarina St",
-        "Lviv, Ukraine",
+        "JM Road,Pune, India",
+        "Wakad, Pune, India",
+        "bhosari, Pune, India",
       ],
     },
-    { head: "E:", sublink: ["hello@ochi.design"] },
+    { head: "E:", sublink: ["sohammamdyal@gmail.com"] },
     {
       head: "M:",
       sublink: ["Home", "Services", "Our work", "About us", "Insights", "Contact us"],
